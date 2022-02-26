@@ -1,4 +1,4 @@
-# contador_presenca
+# Contador Inteligente
 
 A new Flutter project.
 
