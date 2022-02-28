@@ -142,7 +142,7 @@ class InicioPageState extends State<InicioPage> {
                           height: 5,
                         ),
                         Text(
-                          "Controle o fluxo de pesssoas através de vários dispositivos sincronizados em tempo real",
+                          "Controle o fluxo de pessoas através de vários dispositivos sincronizados em tempo real",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             color: Colors.grey,

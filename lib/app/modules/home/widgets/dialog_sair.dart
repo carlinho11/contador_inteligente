@@ -35,10 +35,9 @@ Future<bool> showDialogSair(BuildContext context) {
                 label: 'Confirmar',
                 height: 45,
                 width: size.width,
-                onPressed: () async {
+                onPressed: () {
                   Navigator.of(context).pop();
                   Navigator.of(context).pop();
-                  return Future.value(false);
                 },
               ),
               const SizedBox(
@@ -48,9 +47,8 @@ Future<bool> showDialogSair(BuildContext context) {
                 label: 'Cancelar',
                 height: 45,
                 width: size.width,
-                onPressed: () async {
+                onPressed: () {
                   Navigator.of(context).pop();
-                  return Future.value(false);
                 },
               ),
             ],
